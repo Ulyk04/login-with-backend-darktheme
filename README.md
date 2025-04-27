@@ -48,4 +48,4 @@ npm start
 
 ## 📸 Screenshots
 
-sdgvsd
+  ![Screenshots](https://raw.githubusercontent.com/Ulyk04/dashboard-2/main/images/screen12.png)

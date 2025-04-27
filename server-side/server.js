@@ -45,7 +45,7 @@ app.post('/login' , (req , res) => {
     const {email , password} = req.body;
     const USING = Loading();
 
-    const user = USING.find((u) => u.email === email && e.password === password);
+    const user = USING.find((u) => u.email === email && u.password === password);
 
     if(!user){
         return res.status(400).json({message: 'Invalid credentials'});

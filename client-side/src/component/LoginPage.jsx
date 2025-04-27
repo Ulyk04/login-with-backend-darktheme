@@ -54,7 +54,7 @@ const LoginPage = () => {
         const password = formData.get('password');
 
         try{
-            const res = await axios.post('http://localhost:5000/login' , {
+            const res = await axios.post('https://login-with-backend-darktheme.onrender.com/login' , {
                 email , password
             });
             alert(res.data.message)

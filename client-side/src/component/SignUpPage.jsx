@@ -35,8 +35,8 @@ const SignUpPage = () => {
     })
 
     const handleLogin = async(provider , formData) => {
-        const email = formData('email');
-        const password = formData('password');
+        const email = formData.get('email');
+        const password = formData.get('password');
 
         try{
             const res = await axios.post('http://localhost:5000' , {
